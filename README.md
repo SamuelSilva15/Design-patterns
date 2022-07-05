@@ -7,3 +7,6 @@ Projeto feito com a utilização do padrão de projetos design patterns.
 
 - Chain of Responsibility é um padrão de design comportamental que permite passar solicitações ao longo de uma cadeia de manipuladores. Ao receber uma solicitação, cada manipulador decide processar a solicitação ou passá-la para o próximo manipulador da cadeia.
   - O padrão Chain of Responsibility é utilizado nesse código para evitar classes com diversas informações jogadas, deixando-as visulamente "poluidas" e dificultando o seu entendimento. Diferentemente do Strategy, nesse padrão utizados atributos não exatos, podendo varias de acordo com as informações inseridas pelo usuário.
+
+- O Template Method é um padrão de design comportamental que define o esqueleto de um algoritmo na superclasse, mas permite que as subclasses substituam etapas específicas do algoritmo sem alterar sua estrutura.
+  - O padrão Template Method favoreceu o reaproveitamento de códigos comuns entre classes, evitando assim duplicações de códigos.
