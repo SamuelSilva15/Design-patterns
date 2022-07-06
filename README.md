@@ -10,3 +10,6 @@ Projeto feito com a utilização do padrão de projetos design patterns.
 
 - O Template Method é um padrão de design comportamental que define o esqueleto de um algoritmo na superclasse, mas permite que as subclasses substituam etapas específicas do algoritmo sem alterar sua estrutura.
   - O padrão Template Method favoreceu o reaproveitamento de códigos comuns entre classes, evitando assim duplicações de códigos.
+
+- O State é um padrão de design comportamental que permite que um objeto altere seu comportamento quando seu estado interno muda. Parece que o objeto mudou de classe.
+  - O padrão State, assim como o padrão Strategy, resolve o problema de muitos ifs no código. Porém ele é utilizado principalmente quando se pode mudar o estado do atributo em questão.
