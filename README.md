@@ -13,3 +13,5 @@ Projeto feito com a utilização do padrão de projetos design patterns.
 
 - O State é um padrão de design comportamental que permite que um objeto altere seu comportamento quando seu estado interno muda. Parece que o objeto mudou de classe.
   - O padrão State, assim como o padrão Strategy, resolve o problema de muitos ifs no código. Porém ele é utilizado principalmente quando se pode mudar o estado do atributo em questão.
+
+- O Command é um padrão de design comportamental que transforma uma solicitação em um objeto autônomo que contém todas as informações sobre a solicitação. Essa transformação permite passar solicitações como argumentos de método, atrasar ou enfileirar a execução de uma solicitação e oferecer suporte a operações reversíveis.
