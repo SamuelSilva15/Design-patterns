@@ -17,5 +17,5 @@ Projeto feito com a utilização do padrão de projetos design patterns.
 - O Command é um padrão de design comportamental que transforma uma solicitação em um objeto autônomo que contém todas as informações sobre a solicitação. Essa transformação permite passar solicitações como argumentos de método, atrasar ou enfileirar a execução de uma solicitação e oferecer suporte a operações reversíveis.
   - O Command utilizado foi necessário para que não precisaríamos duplicar todo este código em vários lugares.
 
-- Observer é um padrão de design comportamental que permite definir um mecanismo de assinatura para notificar vários objetos sobre quaisquer eventos que ocorram com o objeto que estão observando.
-
+- O Observer é um padrão de design comportamental que permite definir um mecanismo de assinatura para notificar vários objetos sobre quaisquer eventos que ocorram com o objeto que estão observando.
+  - o Observer foi utilizado para dividir responsabilidades, deixando assim o código mais legível. Se em algum momento uma das tarefas parar de funcionar, sabemos que há uma classe específica para este propósito e podemos começar a depuração por ela.
